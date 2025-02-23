@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
 
     const [userId,setUserId]=useState("");
 
-    const url = "http://localhost:3000";
+    const url = "https://food-del-backend-bouo.onrender.com";
 
     const fetchFoodList = async () => {
         const response = await axios.get(url + "/api/food/list");
