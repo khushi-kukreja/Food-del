@@ -26,7 +26,6 @@ const Add = ({url}) => {
         console.log(data);
     },[data])
       
-    
 
     const onSubmitHandler=async (event)=>{
         event.preventDefault();
